@@ -6,10 +6,12 @@ nav {
   top: 20px;
   padding: 30px;
   box-sizing: border-box;
-  opacity: 1;
+  opacity: .1;
+  transition: all .4s ease-out;
 }
 nav:hover {
   opacity: 1;
+  transition: all .1s ease-out;
 }
 nav p {
   font-size: 14px;
@@ -29,4 +31,7 @@ nav ul li {
 nav ul ul li {
   color: #777;
   margin-left: 10px;
+}
+nav ul, nav li {
+  width: 100%;
 }
