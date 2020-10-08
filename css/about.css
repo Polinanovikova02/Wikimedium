@@ -1,0 +1,9 @@
+section div {
+  width: 50%;
+  display: inline-block;
+  background: red;
+}
+h2 {
+  font-size: 40px;
+
+}
