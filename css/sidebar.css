@@ -8,6 +8,7 @@ nav {
   box-sizing: border-box;
   opacity: .1;
   transition: all .4s ease-out;
+  line-height: 10px;
 }
 nav:hover {
   opacity: 1;
@@ -16,13 +17,14 @@ nav:hover {
 nav li:first-child {
   font-size: 14px;
   line-height: 16px;
-  font-weight: bold;
+  /* font-weight: bold; */
   width: 100%;
 }
 nav a {
   text-decoration: none;
   font-size: 14px;
   line-height: 20px;
+
 }
 nav ul li {
   list-style-type: none;
